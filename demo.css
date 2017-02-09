@@ -1,0 +1,48 @@
+body {
+
+}
+
+main {
+  min-height: 450px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+footer {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+nav {
+  border: 1px solid red;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+.image-holder {
+  height: 450px;
+  background: url('http://tfwiki.net/mediawiki/images2/thumb/3/37/Optimusg1.jpg/350px-Optimusg1.jpg') no-repeat center center;
+}
